@@ -20,7 +20,7 @@ Crie um programa que leia dados de um arquivo. Implemente o tratamento de exceç
 Defina uma classe de exceção personalizada `MyCustomException`. Escreva um programa que lance intencionalmente essa exceção e a capture usando um bloco try-catch.
 
 ### Bloco de Finalização
-Escreva um programa que demonstre o uso do bloco `finally`. Inclua cenários de execução normais e cenários em que as exceções são detectadas.
+Escreva um programa que demonstre o uso do  bloco `finally`. Inclua cenários de execução normais e cenários em que as exceções são detectadas.
 
 ## Tratamento de Exceções Avançado
 
