@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Game</title>
+    <link rel="stylesheet" href="mainstyle.css">
+    <header id="mainHeader">
+        <h1>Jogo da Velha</h1>
+    </header>
+</head>
+<body>
+    <div class="nomes">
+        <label for="playerX">Jogador de X:</label>
+        <input type="text" id="playerX" placeholder="Nome do Jogador X">
+    </div>
+    <div class="nomes">
+        <label for="playerO">Jogador de O:</label>
+        <input type="text" id="playerO" placeholder="Nome do Jogador O">
+    </div>  
+    <div class="buttonReset">
+        <button id="startButton">Iniciar Jogo</button>
+    </div>    
+
+    <script>
+        document.getElementById("startButton").onclick = function() {
+            const playerX = document.getElementById("playerX").value;
+            const playerO = document.getElementById("playerO").value;
+
+            localStorage.setItem("playerX", playerX);
+            localStorage.setItem("playerO", playerO);
+            if (playerO != "" & playerX != "") {
+                location.href = 'game.html';
+            }
+            else{
+                alert("Para continuar preencha os nomes dos jogadores");
+            }
+        };
+    </script>
+</body>
+</html>
