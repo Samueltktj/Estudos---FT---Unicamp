@@ -1,0 +1,69 @@
+#mainHeader{
+    background-color: #ce5b5b;
+    color: rgb(248, 231, 248);
+    height: 4vw;
+    font-size: 1vw;
+    text-align: center ;
+}
+
+body{
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: #0b0a0a;
+}
+
+.grid-container{
+    padding: 2%;
+    display: grid;
+    row-gap: 5px;
+    column-gap: 5px;
+    background-color: #e5e4e4;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    height: 690px;
+
+}
+
+.divQuadro{
+    color: #ce5b5b;
+    background-color: #0b0a0a;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vw;
+    display: flex;
+}
+
+.divQuadroMaior{
+    color: #000000;
+    background-color: rgb(232, 182, 235);
+    height: 80px;
+    width: 610px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.buttonReset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(232, 182, 235);
+}
+
+.reset{
+    background-color: rgb(255, 255, 255);
+}
+
+.nomes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backg
+    background-color: rgb(232, 182, 235);
+}
